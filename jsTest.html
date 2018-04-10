@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="testJS.js" type="text/javascript"></script>
+</head>
+<body>
+<a href="javascript:show()">运行js</a>
+<script type="text/javascript">
+//    var a = 10;
+//    alert(a);
+
+//    正则表达式第一种
+//    var reg = /pateern/;
+    // 第二种
+//    var reg1= new RegExp(pattern);
+    ///检索字符串中指定的值 exec(str) 返回找到的值
+    ///检索字符串中是否又满足置顶条件的值 test(str) 用于判断 返回true false
+    var str = 'chenhao-love-football';
+    var reg2 = /chenhao/;
+    alert(reg2.exec(str));
+    alert(reg2.test(str));
+    var reg2 = new RegExp('chenhao');
+
+    var phone = '1A11';
+    var string = 'chenhao zhangsan';
+
+    var string1 = 'jklwejrlq';
+    var reg = /^[0-9a-zA-Z_-]+@[0-9a-zA-Z]+\.(com|cn|org)/;
+    var arr = new Array(5);
+    for(var index in  arr){
+        document.write(index);
+    }
+
+{
+    var name = "ahao";
+    var age = 10;
+    alert("hello"+name);
+
+
+
+}
+
+{
+    with (document){
+        write("1");
+        write("2");
+        write("3");
+    }
+}
+
+
+
+
+</script>
+</body>
+</html>
